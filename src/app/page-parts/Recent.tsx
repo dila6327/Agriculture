@@ -2,7 +2,7 @@ import React from 'react'
 
 const Recent : React.FC<{ recent: object[] }> = ({ recent }) => {
   return (
-    <section className="flex justify-center flex-col mt-20 ">
+    <section className="flex justify-center flex-col mt-44 ">
     <h2 className="text-2xl text-center text-gray-400">Recent Posts</h2>
     <h3 className="text-green-950 text-xl text-center mt-1 mb-2">Necessitatibus eius consequatur</h3>
     <div className="flex flex-row justify-between flex-wrap h-[440px] w-[1300px] " >
